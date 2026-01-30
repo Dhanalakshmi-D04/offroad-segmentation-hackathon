@@ -1,0 +1,23 @@
+# Virtual environments
+venv/
+ENV_SETUP/venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Torch cache
+.cache/
+
+# Large temp files
+*.log
+
+# Generated predictions (too large for GitHub)
+predictions/
+runs/
+train_stats/
+dataset/
