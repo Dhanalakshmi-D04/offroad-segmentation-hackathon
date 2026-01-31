@@ -1,13 +1,7 @@
 \# Offroad Semantic Segmentation (Hackathon Submission)
-
-
-
 \## Overview
 
 This repository contains the training and testing pipeline for the Offroad Semantic Segmentation challenge.
-
-
-
 \- Backbone: DINOv2 (ViT-S/14)
 
 \- Task: Multi-class semantic segmentation
@@ -41,9 +35,6 @@ segmentation\_project/
 
 
 \## How to Run
-
-
-
 \### 1. Install dependencies
 
 ```bash
@@ -53,42 +44,20 @@ pip install -r requirements.txt
 
 
 \#train
-
-
-
 python train\_segmentation.py
-
-
 
 \#Test
 
-
-
 python test\_segmentation.py
 
-
-
 Results
-
-
 
 Mean IoU achieved on test images: 0.2239
 
 
-
-
-
 Save and close.
 
-
-
----
-
-
-
 \# 🚀 STEP 4: Create `requirements.txt`
-
-
 
 ```powershell
 
